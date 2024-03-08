@@ -12,8 +12,8 @@ Content-Type: application/json
 
 ###
 
-# @name create_account
-POST {{baseUrl}}/session
+# @name authenticate account
+POST {{baseUrl}}/sessions
 Content-Type: application/json
 
 {
